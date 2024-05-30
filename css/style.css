@@ -64,6 +64,48 @@ span{
 }
 
 
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 768px) {
+  .hero p {
+    margin: 45px 0 15px;
+  }
+  form{
+    height: 55px;
+  }
+  form input {
+    height: 55px;
+    width: 350px;
+  }
+  form button{
+    height: 55px;
+    width: 75px;
+  }
+}
 
-
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .hero h3 {
+    margin-top: 15%;
+    font-size: 25px;
+  } 
+  .hero h1 {
+    margin-top: 10px;
+    font-size: 50px;
+  }
+  .hero p {
+    margin: 40px 0 15px;
+  }
+  form{
+    width: auto;
+    height: 45px;
+  }
+  form input {
+    font-size: 15px;
+    padding: 10px 10px;
+    height: 45px;
+  }
+  form button{
+    height: 45px;
+  }
+}
 
